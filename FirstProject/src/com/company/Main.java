@@ -14,33 +14,33 @@ public class Main {
         }
 
 
-//        // Task 2
+        // Task 2
         Scanner sc = new Scanner(System.in);
-//        int[] nums = new int[2];
-//        for (int i = 0; i < 2; i++){
-//            System.out.print("Enter a number: ");
-//            int num = sc.nextInt();
-//            if (num == 0){
-//                System.out.println("Cannot insert 0");
-//            }else{
-//                nums[i] = num;
-//            }
-//        }
-//        System.out.println(nums[0] / nums[1]);
-//        System.out.println(nums[1] % nums[0]);
-//
-//        // Task 3
-//        int[] numSum = new int[3];
-//        for (int i = 0; i < numSum.length; i++) {
-//            System.out.print("Enter a number: ");
-//            int num = sc.nextInt();
-//            numSum[i] = num;
-//        }
-//        System.out.println("The sum of entered nums: ");
-//        System.out.println(Arrays.stream(numSum).sum());
-//
-//        System.out.println("The multiplication of nums: ");
-//        System.out.println(numSum[0] * numSum[1] * numSum[2]);
+        int[] nums = new int[2];
+        for (int i = 0; i < 2; i++){
+            System.out.print("Enter a number: ");
+            int num = sc.nextInt();
+            if (num == 0){
+                System.out.println("Cannot insert 0");
+            }else{
+                nums[i] = num;
+            }
+        }
+        System.out.println(nums[0] / nums[1]);
+        System.out.println(nums[1] % nums[0]);
+
+        // Task 3
+        int[] numSum = new int[3];
+        for (int i = 0; i < numSum.length; i++) {
+            System.out.print("Enter a number: ");
+            int num = sc.nextInt();
+            numSum[i] = num;
+        }
+        System.out.println("The sum of entered nums: ");
+        System.out.println(Arrays.stream(numSum).sum());
+
+        System.out.println("The multiplication of nums: ");
+        System.out.println(numSum[0] * numSum[1] * numSum[2]);
 
 
         // Task 4
